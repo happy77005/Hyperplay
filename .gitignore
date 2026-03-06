@@ -1,15 +1,25 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Android Build Files
+build/
+.gradle/
+app/build/
+.cxx/
 local.properties
+
+# IDE Files
+.idea/
+*.iml
+.DS_Store
+
+# Secret Sauce (HyperAudio Core Engine)
+app/src/main/cpp/engine/
+app/src/main/java/com/example/first/usb/
+app/src/main/java/com/example/first/UsbHelper.kt
+verify_processor.cpp
+behaviour.txt
+
+# Logs and Tmp
+*.log
+logs/
+plan/
+/tmp/
+wifi-cmds.txt
