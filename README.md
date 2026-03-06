@@ -2,6 +2,9 @@
 
 Hyperplay v2 is a state-of-the-art Android music player designed for audiophiles who demand the highest possible audio fidelity. It bypasses conventional Android audio limitations through a custom-built native engine, offering true Bit-Perfect playback and advanced DAC integration.
 
+## ⬇️ Download
+You can download the latest compiled APK from the [Releases](https://github.com/happy77005/Hyperplay/releases/tag/v1.0.0) page.
+
 ---
 
 ## 🚀 Core Philosophy: Bit-Perfect Audio
@@ -68,20 +71,6 @@ app/src/main/
 - **FFmpeg**: Requires pre-built libraries placed in `app/src/main/jniLibs`.
 - **Oboe**: Included as a Git submodule/folder in `external/`.
 
----
+## 📜 License
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
 
-## 📜 Technical Deep-Dive Documents
-
-For a more granular look at the implementation plans, see the `/plan` directory:
-- [Bit-Perfect Plan](file:///g:/Android-app/Hyperplay/v2/plan/Hi-res/bit-perf.md)
-- [Audio Engine Abstraction](file:///g:/Android-app/Hyperplay/v2/plan/audio_engine_abstraction.md)
-- [Phase 1 Implementation](file:///g:/Android-app/Hyperplay/v2/plan/phase1_implementation.md)
-
----
-
-## Commands
-
-- ./gradlew assembleDebug > build_log.txt 2>&1        
--  adb install -r G:\Android-app\Hyperplay\v2\app\build\outputs\apk\debug\app-debug.apk
-
-Developed by **DeepMind Advanced Agentic Coding Team**.
