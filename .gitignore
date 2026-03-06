@@ -11,6 +11,9 @@ local.properties
 .DS_Store
 
 # Secret Sauce (HyperAudio Core Engine)
+# Secret Sauce (HyperAudio Core Engine)
+app/src/main/cpp/*.cpp
+app/src/main/cpp/*.h
 app/src/main/cpp/engine/
 app/src/main/java/com/example/first/usb/
 app/src/main/java/com/example/first/UsbHelper.kt
